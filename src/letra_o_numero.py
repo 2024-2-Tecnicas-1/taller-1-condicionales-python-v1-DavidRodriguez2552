@@ -1,6 +1,13 @@
 def evaluar(caracter):
-    # TODO: Coloca aquí el código del ejercicio 4: Letra o número
-    return "";
+ codigo_ascii = ord(caracter)
+ if '0' <= caracter <= '9':
+    return "Es número"
+ elif 'A' <= caracter <= 'Z':
+    return "Es letra mayúscula"
+ elif 'a' <= caracter <= 'z':
+    return "Es letra minúscula"
+ else:
+    return "No es letra ni número"
 
 if __name__ == '__main__':
     print("Caracter:", end='')
