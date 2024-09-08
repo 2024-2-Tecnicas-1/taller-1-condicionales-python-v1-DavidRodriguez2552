@@ -78,6 +78,5 @@ class TestSetDeTenis(unittest.TestCase):
         self.assertEqual(valor_esperado, valor_actual)
 
 
-
 if __name__ == '__main__':
     unittest.main()
